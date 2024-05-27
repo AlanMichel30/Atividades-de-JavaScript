@@ -4,7 +4,7 @@ var escolha;
 while (true) {
     escolha = entrada.question('Digite a operação ( + | - | * | % | / | ** ) ou ( N para sair ): ').toUpperCase();
 
-    if (escolha == 'n') {
+    if (escolha == 'N') {
         console.log('Saindo...');
         break;
     }
