@@ -2,9 +2,9 @@ var entrada = require('readline-sync');
 var escolha;
 
 while (true) {
-    escolha = entrada.question('Digite a operação ( + | - | * | % | / | ** | sair ): ');
+    escolha = entrada.question('Digite a operação ( + | - | * | % | / | ** ) ou ( N para sair ): ').toUpperCase();
 
-    if (escolha == 'sair') {
+    if (escolha == 'n') {
         console.log('Saindo...');
         break;
     }
