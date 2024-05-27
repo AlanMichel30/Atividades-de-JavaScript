@@ -1,5 +1,5 @@
 var entrada = require('readline-sync');
-var secreto = Math.floor(Math.random() * 10);
+var secreto = Math.floor(Math.random() * 100);
 var escolha;
 var tentativa = 0;
 var desistir;
